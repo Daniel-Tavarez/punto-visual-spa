@@ -176,6 +176,22 @@ body {
   background-color: #ff6600 !important;
 }
 
+/* carousel media query */
+
+@media (max-width: 1200px) {
+  .swiper-slide .text h1 {
+    font-size: 4rem;
+  }
+  .swiper-slide .text h3 {
+    font-size: 2rem;
+  }
+
+  .swiper-slide .text button {
+    padding: 12px 25px;
+    font-size: 1.5rem;
+  }
+}
+
 /* booking */
 .wrapper-booking {
   width: 100%;
@@ -290,6 +306,32 @@ body {
   font-size: 1.7rem;
   color: #7a7a7b;
   font-weight: normal;
+}
+
+/* we media query */
+
+@media (max-width: 1660px) {
+  .we{
+    width: 100%;
+  }
+  .we .content {
+    position: absolute;
+    top: 20%;
+    right: 7%;
+  }
+  .we .content p {
+    margin: 0;
+  }
+  .we .content h2 {
+    font-size: 3rem;
+  }
+
+  .we .content .white-box-with-orange-frange {
+    max-width: 400px;
+  }
+  .we .content .white-box-with-orange-frange p {
+    font-size: 1rem;
+  }
 }
 
 /* history */
@@ -417,6 +459,9 @@ body {
 }
 .mounts .glasses-img {
   margin-top: -6rem;
+}
+.mounts .glasses-img img {
+  width: 100%;
 }
 
 /* footer */
